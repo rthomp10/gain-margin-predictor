@@ -1,5 +1,5 @@
-# recommended-esr-calculator
- Calculated safety factor threats given the transconductance of an IC's inverter
+# Gain Margin Predictor
+Let's figure out if you're overdriving your crystal in this pierce oscillator loop your designing.
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -16,7 +16,8 @@
   </a>
   <h3 align="center">Gain Margin Predictor</h3>
   <p align="center">
-    Assists in picking out appropriate load capacitors for MHz or kHz pierce oscillator circuits.
+     Estimates the worst case and current drive level given a crystal's parasitic <br />
+     elements and an inverter's transconductance. 
     <br />
     <a href="https://github.com/rthomp10/gain-margin-predictor/issues">Request Feature</a>
   </p>
